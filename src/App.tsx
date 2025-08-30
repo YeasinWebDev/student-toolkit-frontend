@@ -1,8 +1,22 @@
+import { useEffect } from "react";
 import { AppSidebar } from "./components/app-sidebar";
 import { SidebarInset, SidebarProvider, SidebarTrigger } from "./components/ui/sidebar";
-import { Outlet } from "react-router";
+import { Outlet, useNavigate } from "react-router";
+import axios from "axios";
 
 function App() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    const fetchUser = async () => {
+      try {
+        await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/auth/me`, { withCredentials: true });
+      } catch (error) {
+        console.log(error);
+        navigate("/signin");
+      }
+    };
+    fetchUser();
+  }, []);
   return (
     <SidebarProvider>
       <AppSidebar />
