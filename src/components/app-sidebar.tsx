@@ -24,6 +24,10 @@ const data = {
           title: "Schedule Tracker",
           url: "/schedule",
         },
+        {
+          title: "Budget Tracker",
+          url: "/budget",
+        }
       ],
     },
   ],

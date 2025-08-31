@@ -157,10 +157,10 @@ export default function ClassScheduleTracker() {
           <span className="text-sm text-muted-foreground">Plan your week — add, edit or delete classes</span>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex md:items-center gap-2 flex-col md:flex-row">
           <Input placeholder="Search subject, instructor or location" value={search} onChange={(e) => setSearch(e.target.value)} className="rounded w-60" />
 
-          <Button onClick={handleOpenCreate} className="rounded cursor-pointer">
+          <Button onClick={handleOpenCreate} className="w-fit rounded cursor-pointer">
             <Plus size={16} /> Add Class
           </Button>
         </div>

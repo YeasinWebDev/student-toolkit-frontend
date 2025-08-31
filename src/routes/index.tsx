@@ -1,19 +1,27 @@
 import App from "@/App";
 import SignIn from "@/pages/auth/SignIn";
 import SignUp from "@/pages/auth/SignUp";
+import BudgetTracker from "@/pages/dashboard/BudgetTracker";
 import ScheduleTracker from "@/pages/dashboard/Schedule";
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter, Navigate } from "react-router";
 
 export const router = createBrowserRouter([
   {
-    path: "/schedule",
+    path: "/",
     element: <App />,
     children: [
+       {
+        index: true, // when path is "/"
+        element: <Navigate to="/schedule" replace />,
+      },
       {
-        index: true,
         path: "/schedule",
         Component: ScheduleTracker,
       },
+      {
+        path:'budget',
+        Component:BudgetTracker
+      }
     ],
   },
   {
