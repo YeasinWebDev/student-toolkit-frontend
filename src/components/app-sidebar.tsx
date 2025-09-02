@@ -35,7 +35,11 @@ const data = {
         {
           title: "Study Planner",
           url: "/planner",
-        }
+        },
+        {
+          title: "Deep Work",
+          url: "/timer",
+        },
       ],
     },
   ],

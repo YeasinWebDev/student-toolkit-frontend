@@ -22,7 +22,7 @@ function QuestionGenerator() {
   const [finished, setFinished] = useState(false);
   const [score, setScore] = useState<number | null>(null);
   const [allData, setAllData] = useState<IAllData[]>([]);
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   // Add question
   const [newQuestion, setNewQuestion] = useState("");
@@ -91,8 +91,8 @@ function QuestionGenerator() {
 
   return (
     <div className="flex flex-col items-center gap-6 p-6">
-      <h2 className="text-3xl font-bold">🎯 Question Generator</h2>
-
+      <h2 className="text-3xl font-bold whitespace-nowrap">🎯 Question Generator</h2>
+      <p className="text-sm text-gray-500 text-center -mt-4">Test your knowledge with quick true/false quizzes — or add your own questions!</p>
       <div className="flex gap-4">
         <Select onValueChange={setType} defaultValue="easy">
           <SelectTrigger className="w-[200px]">

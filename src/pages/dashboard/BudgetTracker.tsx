@@ -64,7 +64,7 @@ export default function BudgetTracker() {
   return (
     <div className="lg:max-w-7xl mx-auto lg:p-6 space-y-6">
       <h1 className="text-3xl font-bold text-center">💰 Budget Tracker</h1>
-      <p className="text-center text-muted-foreground">Track your income, expenses, and savings easily</p>
+      <p className="text-center text-muted-foreground -mt-4">Track your income, expenses, and savings easily</p>
 
       <div className="grid md:grid-cols-3 gap-4">
         <Card className="shadow-md">

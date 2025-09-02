@@ -5,6 +5,7 @@ import BudgetTracker from "@/pages/dashboard/BudgetTracker";
 import QuestionGenerator from "@/pages/dashboard/QuestionGenerator";
 import ScheduleTracker from "@/pages/dashboard/Schedule";
 import StudyPlanner from "@/pages/dashboard/StudyPlanner";
+import Timer from "@/pages/dashboard/Timer";
 import { createBrowserRouter, Navigate } from "react-router";
 
 export const router = createBrowserRouter([
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
       {
         path:'planner',
         Component:StudyPlanner
+      },
+      {
+        path:'timer',
+        Component:Timer
       }
     ],
   },

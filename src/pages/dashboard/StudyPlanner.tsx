@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle} from "@/components/ui/dialog";
 import { format } from "date-fns";
 import { Plus } from "lucide-react";
 import toast from "react-hot-toast";
@@ -113,7 +113,8 @@ export default function StudyPlanner() {
 
   return (
     <div className="md:p-6 max-w-9xl mx-auto relative">
-      <h1 className="text-2xl md:text-3xl font-semibold mb-5 flex items-center justify-center">Study Planner</h1>
+      <h1 className="text-2xl md:text-3xl font-semibold mb-1 flex items-center justify-center">Study Planner</h1>
+      <p className="text-sm text-gray-500 mb-5 text-center">Organize subjects, set priorities, and track your study progress with ease.</p>
       <div className="flex items-center justify-center gap-4 mb-5 flex-wrap">
         <div className="flex items-center gap-2 bg-card p-4 rounded-full border">
           <h4>Total Tasks</h4>
