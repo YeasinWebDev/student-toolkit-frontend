@@ -27,6 +27,10 @@ const data = {
         {
           title: "Budget Tracker",
           url: "/budget",
+        },
+        {
+          title: "Question Generator",
+          url: "/question",
         }
       ],
     },
