@@ -31,6 +31,10 @@ const data = {
         {
           title: "Question Generator",
           url: "/question",
+        },
+        {
+          title: "Study Planner",
+          url: "/planner",
         }
       ],
     },
