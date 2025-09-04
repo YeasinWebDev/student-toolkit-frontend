@@ -10,9 +10,9 @@ this is a Student Life Toolkit project that makes student life easyer
  arafat@gmail.com         | 123456   |
 ---
 
-## Feature 
+## 🚀 Feature 
 
-### 1. Deep Work (unique feature)  
+### 1. Deep Work ( ✨ unique feature)  
 
 A built-in timer designed to help students focus with study sessions and breaks using the Pomodoro technique.   
 
