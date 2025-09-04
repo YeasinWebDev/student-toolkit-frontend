@@ -1,4 +1,4 @@
-# EduMate  || [Frontend](https://stu-tool-fr.vercel.app)
+# EduMate  || [Live](https://stu-tool-fr.vercel.app) || [Backend](https://github.com/YeasinWebDev/student-toolkit-backend)
 
 this is a Student Life Toolkit project that makes student life easyer
 
