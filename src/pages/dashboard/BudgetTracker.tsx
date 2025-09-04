@@ -126,7 +126,7 @@ export default function BudgetTracker() {
                 <p className="text-muted-foreground">No transactions yet</p>
               ) : (
                 <div className="overflow-x-auto">
-                  <table className="w-full border border-gray-200 rounded-lg overflow-hidden">
+                  <table className="w-full border rounded-lg overflow-hidden">
                     <thead className="border">
                       <tr>
                         <th className="px-4 py-2 text-left text-sm font-semibold">#</th>
